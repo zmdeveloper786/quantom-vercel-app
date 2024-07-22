@@ -1,0 +1,314 @@
+@media only screen and (max-width: 768px) {
+    .herocontact {
+        height: 550px;
+        /* Reduced height for smaller screens */
+        width: 400vw;
+    }
+
+    .herocontact h1 {
+        font-size: 6em;
+        /* Smaller font size for the title */
+        margin-top: 20px;
+        /* Reduced margin top */
+    }
+
+    .herocontact p {
+        font-size: 37px;
+        /* Smaller font size for the paragraph */
+    }
+
+    hr {
+        width: 110vw;
+        /* Adjust width to be more responsive */
+    }
+
+    .second {
+        width: 400vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .form {
+        width: 400vw;
+    }
+
+    .map-container {
+        width: 400vw;
+        margin-top: 900px;
+    }
+
+    .circle {
+        margin: 0px 11px;
+        width: 20px;
+        height: 20px;
+    }
+    .divider{
+        width: 100vw;
+        margin: 25px 0px;
+    }
+
+    .divider span {
+        font-size: 32px;
+        padding: 0px 10px;
+    }
+
+    .second-content p {
+        width: 350vw;
+        font-size: 60px;
+    }
+    .second-content span{
+        font-size: 75px;
+    }
+
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 200vw;
+    }
+
+    .contact-box svg {
+        width: 120px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .contact-box h3 {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .contact-box p {
+        text-align: center;
+        /* margin-right: 25px; */
+        font-size: 30px;
+    }
+
+    .contact-box p:last-child {
+        font-size: 20px;
+    }
+
+    /* .form{
+        display: block;
+    } */
+    .contact-section {
+        display: block;
+    }
+
+    .message-box {
+        margin-top: 900px;
+        padding-bottom: 40px;
+        width: 300vw;
+    }
+
+    .message-box svg {
+        width: 70px;
+        height: 70px;
+    }
+
+    .message-box h3 {
+        margin-top: 25px;
+        font-size: 30px;
+    }
+
+    .message-box p {
+        font-size: 25px;
+        word-spacing: 0;
+    }
+
+    .message-box button {
+        font-size: 20px;
+    }
+
+    .form-box-1 {
+        /* margin: 0px 0px -100px 0px; */
+        padding-top: 100px;
+    }
+
+    .divider-2 {
+        margin-bottom: 60px;
+        width: 100vw;
+        margin-left: -20px;
+    }
+
+    .form-box {
+        width: 300vw;
+        margin-left: -40px;
+    }
+
+    .input-icon {
+        padding: 30px;
+    }
+
+    .input-icon {
+        display: block;
+    }
+
+    .input-group input,
+    .input-group textarea {
+        padding: 30px;
+        font-size: 30px;
+        margin: 20px 0px;
+    }
+
+    .textarea {
+        height: 100px !important;
+    }
+    .form button {
+        padding: 20px;
+        font-size: 30px;
+
+    }
+}
+
+@media only screen and (min-width:951px)and (max-width: 1024px) {
+
+    .divider {
+        width: 13vw;
+    }
+
+    .second-content p {
+        margin-left: 65px;
+    }
+
+    .contact-container {
+        width: 86%;
+    }
+
+    .form {
+        height: 650px;
+    }
+
+    .message-box {
+        width: 44vw;
+        height: 320px;
+        padding: 30px;
+    }
+
+    .message-box p {
+        word-spacing: 0px;
+    }
+
+    .message-box svg {
+        width: 60px;
+        height: 60px;
+    }
+
+    .message-box h3 {
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+    .message-box p {
+        font-size: 15px;
+    }
+
+    .textarea {
+        padding: 9px;
+        height: 122px;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:950px) {
+    .herocontact {
+        width: 125vw;
+    }
+   .divider span{
+    font-size: 19px;
+   }
+    .second {
+        text-align: center;
+        width: 125vw;
+    }
+
+    .divider {
+        margin-bottom: 20px;
+        width: 30vw;
+    }
+
+    .content {
+        font-size: 20px;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 100%;
+    }
+
+    .contact-box {
+        width: 80vw;
+    }
+
+    .contact-box p:last-child {
+        text-align: center;
+    }
+
+    .second-content p {
+       
+        margin-left: 115px;
+    }
+
+    .form {
+        margin-top: 40px;
+        /* height: 70vh; */
+    }
+
+    .divider-2 {
+        margin-bottom: 50px;
+        width: 20vw;
+    }
+
+    .form-box h2 {
+        font-size: 28px;
+    }
+
+    .message-box {
+        /* height: 30vh; */
+        padding: 40px;
+    }
+
+    /* .message-box p{
+        width: 40%;
+    } */
+    .message-box h3 {
+        margin-top: 30px;
+        width: 20vw;
+        font-size: 17px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-group {
+        width: 60vw;
+    }
+    /* .textarea{
+        height: 9.5vh;
+    } */
+    form button{
+        width: 20vw !important;
+    }
+    input, textarea{
+        font-size: 20px;
+    }
+    .map-container{
+        width: 125vw;
+    }
+}

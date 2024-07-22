@@ -1,0 +1,114 @@
+/* @media only screen and (max-width: 767px) {
+    .hero{
+        width: 310%;
+        background-size: cover;
+        
+    }
+    .container-fluid-1{
+        width: 310% !important;
+      }
+    .hero-content p{
+        width: 140vw;
+    }
+    .without-bottom-spacing{
+        width: 300%;
+    }
+    .grid-2-column{
+        grid-template-columns: 750px 1fr;
+    }
+    .second-container{
+        width: 310%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ceo-image {
+        width: 230vw;
+    }
+    .second-container img{
+        width: 230vw;
+    }
+    .content{
+        width: 230vw;
+    }
+    .social-icons a{
+        text-align: center;
+    }
+    .mission{
+        width: 310%;
+    }
+    .w-layout-hflex{
+        width: 110%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .without-space{
+        width: 280%;
+    }
+    .about-company{
+        width: 230vw;
+        height: 250vw;
+    }
+    .text-block-wrap{
+        margin-top: 50px;
+        max-width: 230vw;
+    }
+    .overflow-hidden-1{
+        margin-top: 70px;
+        width: 280%;
+    }
+    .section-subtitle-2 {
+        margin-left: 77px;
+    }
+    .values-flex-box{
+        margin-top: 20px;
+        flex-direction: row;
+        width: 95%;
+    }
+    .features-flex-wrap{
+        margin: 0px 80px;
+    }
+    .feature-text-wrap{
+        max-width: 230vw;
+    }
+}
+@media only screen and (min-width :768px) and (max-width: 1024px) {
+    .grid-2-column{
+        grid-template-columns: 530px 1fr;
+    }
+    .big-heading-blue{
+        font-size: 2.5rem;
+    }
+    .second-container{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .ceo-image  {
+        width: 70vw;
+    }
+    .ceo-image img {
+        width: 1000px;
+    }
+    .content{
+        width: 80%;
+    }
+    .flex-align-center{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-company{
+        width: 500px;
+    }
+    .text-block-wrap{
+        margin-top: 70px;
+        max-width: 600px;
+    }
+    .section-subtitle-2 {
+        margin-left: 80px;
+    }
+} */
